@@ -1,0 +1,142 @@
+body {
+    font-family: Vedana, Geneva, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #000 ;
+    }
+
+    .container {
+        max-width:750px ;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    
+    
+
+    .foto {
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    }
+
+h1 {
+    color: pink;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+.info-text p {
+font-style: italic;
+font-weight: bold;
+margin: 0;
+margin-left: 40px;
+}
+
+.hobbi{
+    color: #fff;
+    border: 2px solid pink ;
+    border-radius: 5px;
+    background: pink;
+    padding-left: 10px;
+}
+
+.rabota{
+    color: #fff;
+    border: 2px solid plum;
+    border-radius: 5px ;
+    background: plum;
+    padding-left:  10px; ;
+}
+
+.btn {
+    background: purple;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8; 
+ }
+
+ .silka:hover {
+    color: orangered;
+ }
+
+.silka { 
+    text-decoration: none;
+}
+
+ .silka:active {
+    color: palevioletred;
+ }
+
+ .table {
+    width: 100%;
+ }
+
+ .table td {
+    text-align: center;
+    padding-bottom: 5px;
+ }
+
+ .table th {
+    color: grey;
+ }
+
+ .table td:hover {
+    background: gray;
+ }
+
+ .table td:nth-child(1), .table td:nth-child(3) {
+    background: purple;
+ }
+
+ .img {
+    display: block;
+    margin: 40px auto;
+    width: 200px;
+ }
+
+ .form h2{
+    text-align: center;
+ }
+ .form-row {
+    margin-bottom: 10px;
+    display: flex;
+ }
+
+ .form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50%-20px); */
+ }
+
+
+ .form-group label {
+    display: block;
+    font-size: 14px;
+    color: pink;
+ }
+ 
+ .form-group input, 
+ .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+ }
